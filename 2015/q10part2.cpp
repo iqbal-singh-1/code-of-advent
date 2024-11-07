@@ -30,7 +30,7 @@ string calNewString(string s) {
 
 int main() {
     string n = "1113222113";  // Starting string
-    for (int i = 0; i < 40; i++) {
+    for (int i = 0; i < 50; i++) {
         n = calNewString(n);  // Generate next sequence term
     }
 
