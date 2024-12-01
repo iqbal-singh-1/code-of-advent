@@ -1,6 +1,6 @@
-for(int i  = digitCounts.size()-1; i>=0 ; i--){
-    //     ans*= 100;
-    //     ans+= digits[i] + digitCounts[i]*10;
-    //     cout<<ans<<endl;
-    // }
-    
+for(int i = 0; i<happiness.size() ; i++) {
+        for(int j = 0; j<happiness[i].size(); j++){
+            cout<<happiness[i][j]<<" ";
+        }
+        cout<<endl;
+    }
